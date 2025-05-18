@@ -18,7 +18,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:8000/api/contacto", {
+      const res = await fetch("https://porfolio-app-production.up.railway.app/api/contacto", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
