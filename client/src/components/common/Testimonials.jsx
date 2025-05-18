@@ -1,6 +1,6 @@
 const Testimonials = () => {
-    return (
-      <section className="bg-light py-5 text-center">
+  return (
+    <section className="bg-light py-5 text-center">
       <div className="container">
         <h2 className="fw-bold text-primary">Nuestro Impacto</h2>
         <p className="text-muted">
@@ -10,27 +10,26 @@ const Testimonials = () => {
         <div className="row mt-4">
           <div className="col-md-6">
             <div className="card border-0 shadow-sm p-4">
-              <h4 className="fw-bold text-primary">Automatización Empresarial</h4>
+              <h4 className="fw-bold text-primary">Gestión de Inventarios</h4>
               <p className="text-muted">
-                Implementamos un sistema de automatización para <strong>TechCorp</strong>, 
-                optimizando su flujo de trabajo y reduciendo tiempos operativos en un 40%.
+                Implementamos un sistema de gestión de inventarios para una <strong>cigarrería local</strong>, 
+                permitiéndoles controlar su stock en tiempo real y reducir pérdidas por vencimiento o faltantes.
               </p>
             </div>
           </div>
           <div className="col-md-6">
             <div className="card border-0 shadow-sm p-4">
-              <h4 className="fw-bold text-primary">Expansión Digital</h4>
+              <h4 className="fw-bold text-primary">E-commerce para Pañalera</h4>
               <p className="text-muted">
-                Ayudamos a <strong>StartupX</strong> a lanzar su plataforma digital, 
-                alcanzando más clientes y aumentando sus ingresos en un 60%.
+                Desarrollamos una plataforma de comercio electrónico para <strong>Pañalera Súper Baby</strong>, 
+                ampliando su alcance y facilitando las ventas en línea con pagos seguros y entregas rápidas.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    );
-  };
-  
-  export default Testimonials;
-  
+  );
+};
+
+export default Testimonials;
